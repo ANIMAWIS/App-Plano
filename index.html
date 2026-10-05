@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#11130f">
+    <meta
+      name="description"
+      content="Conheça o Plano: um app para organizar rendas, acompanhar gastos e visualizar seus investimentos mês a mês."
+    >
+    <title>Plano — Seu dinheiro, com mais direção</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Plano, página inicial">
+        <img class="brand-logo" src="../lgplan.png" alt="">
+        <span>plano<span class="brand-period">.</span></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        aria-label="Abrir menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#recursos">Recursos</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a class="nav-cta" href="https://ev.braip.com/checkout/pla89rxm/chel5pwq">Comprar agora <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Sua vida financeira, em perspectiva</p>
+          <h1>Seu dinheiro merece um <span>plano.</span></h1>
+          <p class="hero-description">
+            Rendas, gastos e investimentos em um só lugar. Entenda seu mês de
+            verdade e faça escolhas com mais clareza.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#recursos">
+              Descubra o que você pode organizar <span aria-hidden="true">↓</span>
+            </a>
+            <a class="text-link" href="#como-funciona">Ver como funciona <span aria-hidden="true">↘</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="note-icon" aria-hidden="true">✳</span>
+            <p>Um começo mais simples para cuidar melhor do seu dinheiro.</p>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Prévia do painel financeiro do app Plano">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+          <div class="floating-label label-balance">
+            <span class="label-icon label-green" aria-hidden="true">↗</span>
+            <span><small>Renda total</small><strong>Mais clareza</strong></span>
+          </div>
+          <figure class="phone-frame">
+            <img
+              src="Screenshot_2026-10-04-22-59-56-285_com.example.plano.jpg"
+              alt="Painel do Plano com saldo líquido, resumo de rendas, gastos e gráfico financeiro"
+            >
+          </figure>
+          <div class="floating-label label-month">
+            <span class="label-icon label-yellow" aria-hidden="true">◷</span>
+            <span><small>Seu mês</small><strong>No seu ritmo</strong></span>
+          </div>
+          <span class="visual-caption">Seu panorama financeiro começa aqui.</span>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Resumo dos recursos do Plano">
+        <div class="trust-inner">
+          <span>Menos achismo.</span>
+          <span class="strip-star" aria-hidden="true">✳</span>
+          <span>Mais visão do mês.</span>
+          <span class="strip-star" aria-hidden="true">✳</span>
+          <span>Decisões com intenção.</span>
+        </div>
+      </section>
+
+      <section class="intro-section section-shell" id="como-funciona">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Um lugar para olhar o todo</p>
+          <h2>Chega de montar o quebra-cabeça em vários lugares.</h2>
+        </div>
+        <div class="intro-aside">
+          <p>
+            O Plano ajuda você a acompanhar seu dinheiro ao longo do mês: do
+            que entra ao que sai, até os planos que estão crescendo.
+          </p>
+          <a class="text-link" href="#recursos">Conheça os recursos <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+
+      <section class="features section-shell" id="recursos">
+        <article class="feature-card feature-overview">
+          <div class="feature-copy">
+            <span class="feature-number">01 / VISÃO DO MÊS</span>
+            <h3>Veja o cenário antes de decidir.</h3>
+            <p>
+              Acompanhe seu saldo, compare entradas e gastos e consulte um
+              resumo visual da sua vida financeira.
+            </p>
+            <span class="feature-tag"><span class="tag-dot"></span> Um painel, seu mês inteiro</span>
+          </div>
+          <figure class="feature-image overview-image">
+            <img
+              src="Screenshot_2026-10-04-23-00-10-289_com.example.plano.jpg"
+              alt="Visão inicial do app com indicador GPM e resumo das finanças"
+              loading="lazy"
+            >
+          </figure>
+        </article>
+
+        <div class="feature-grid">
+          <article class="feature-card feature-income">
+            <div class="feature-copy">
+              <span class="feature-number">02 / RENDAS</span>
+              <h3>Saiba o que entra.</h3>
+              <p>
+                Registre salário, renda extra e outras entradas. Veja como
+                elas compõem o seu mês.
+              </p>
+            </div>
+            <figure class="feature-image">
+              <img
+                src="Screenshot_2026-10-04-23-00-08-180_com.example.plano.jpg"
+                alt="Tela de rendas com total do mês e categorias de entrada"
+                loading="lazy"
+              >
+            </figure>
+          </article>
+
+          <article class="feature-card feature-expenses">
+            <div class="feature-copy">
+              <span class="feature-number">03 / GASTOS</span>
+              <h3>Entenda para onde vai.</h3>
+              <p>
+                Separe despesas fixas e pontuais e acompanhe os totais por
+                mês, sem misturar tudo.
+              </p>
+            </div>
+            <figure class="feature-image">
+              <img
+                src="Screenshot_2026-10-04-23-00-03-183_com.example.plano.jpg"
+                alt="Tela de gastos com filtro para despesas fixas e únicas"
+                loading="lazy"
+              >
+            </figure>
+          </article>
+        </div>
+
+        <article class="feature-card feature-investments">
+          <div class="feature-copy">
+            <span class="feature-number">04 / INVESTIMENTOS</span>
+            <h3>Planeje o que vem pela frente.</h3>
+            <p>
+              Organize seus aportes e visualize projeções de patrimônio com
+              juros compostos em diferentes períodos.
+            </p>
+            <span class="feature-tag"><span class="tag-dot"></span> Seus próximos passos, mais visíveis</span>
+          </div>
+          <figure class="feature-image investments-image">
+            <img
+              src="Screenshot_2026-10-04-23-00-15-471_com.example.plano.jpg"
+              alt="Tela de investimentos com simulador de projeção financeira"
+              loading="lazy"
+            >
+          </figure>
+        </article>
+      </section>
+
+      <section class="closing-section section-shell" id="comecar">
+        <div class="closing-mark" aria-hidden="true">✳</div>
+        <p class="eyebrow">Entrega digital</p>
+        <h2>Após a compra, seu app estará pronto para baixar.</h2>
+        <p>
+          Com o pagamento confirmado, o arquivo APK do Plano ficará disponível
+          para download e instalação no seu dispositivo Android.
+        </p>
+        <div class="delivery-note">
+          <span class="delivery-icon" aria-hidden="true">↓</span>
+          <span>
+            <strong>Download do APK após a confirmação</strong>
+            <small>Entrega digital, sem envio físico.</small>
+          </span>
+        </div>
+        <a class="button button-dark" href="https://ev.braip.com/checkout/pla89rxm/chel5pwq">
+          Comprar agora <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#inicio" aria-label="Plano, voltar ao início">
+        <img class="brand-logo" src="../lgplan.png" alt="">
+        <span>plano<span class="brand-period">.</span></span>
+      </a>
+      <p>Plano — um app desenvolvido pela Animawis.</p>
+      <a href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a>
+    </footer>
+  </body>
+</html>
