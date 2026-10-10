@@ -39,7 +39,7 @@
       <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
         <a href="#recursos">Recursos</a>
         <a href="#como-funciona">Como funciona</a>
-        <a class="nav-cta" href="https://ev.braip.com/checkout/pla89rxm/chel5pwq?currency=BRL&amp;pv=lip2yk53">Comprar agora <span aria-hidden="true">↗</span></a>
+        <a class="nav-cta" data-purchase-link href="https://ev.braip.com/checkout/pla89rxm/chel5pwq?currency=BRL&amp;pv=lip2yk53" target="_blank" rel="noopener noreferrer">Comprar agora <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
 
@@ -216,11 +216,34 @@
             <strong><a href="mailto:smashbrj@gmail.com">smashbrj@gmail.com</a></strong>
           </div>
         </div>
-        <a class="button button-dark" href="https://ev.braip.com/checkout/pla89rxm/chel5pwq?currency=BRL&amp;pv=lip2yk53">
+        <a class="button button-dark" data-purchase-link href="https://ev.braip.com/checkout/pla89rxm/chel5pwq?currency=BRL&amp;pv=lip2yk53" target="_blank" rel="noopener noreferrer">
           Comprar agora <span aria-hidden="true">↗</span>
         </a>
       </section>
     </main>
+
+    <dialog class="purchase-dialog" aria-labelledby="purchase-dialog-title" aria-describedby="purchase-dialog-description">
+      <div class="purchase-dialog-content">
+        <p class="eyebrow">Pagamento seguro</p>
+        <h2 id="purchase-dialog-title">Você está indo para a área de pagamento</h2>
+        <p id="purchase-dialog-description">
+          A finalização da compra acontece no checkout seguro da Braip, que será aberto em uma nova aba.
+        </p>
+        <div class="purchase-dialog-actions">
+          <form method="dialog">
+            <button class="purchase-dialog-cancel" type="submit">Agora não</button>
+          </form>
+          <a
+            class="button button-dark purchase-dialog-continue"
+            href="https://ev.braip.com/checkout/pla89rxm/chel5pwq?currency=BRL&amp;pv=lip2yk53"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Continuar para pagamento <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </dialog>
 
     <footer class="site-footer">
       <a class="brand footer-brand" href="#inicio" aria-label="Plano, voltar ao início">

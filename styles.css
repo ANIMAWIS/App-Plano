@@ -759,6 +759,68 @@ h3 {
   background: #303923;
 }
 
+.purchase-dialog {
+  width: min(440px, calc(100% - 32px));
+  padding: 0;
+  border: 1px solid rgba(244, 242, 233, 0.16);
+  border-radius: 20px;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+}
+
+.purchase-dialog::backdrop {
+  background: rgba(8, 10, 7, 0.78);
+  backdrop-filter: blur(5px);
+}
+
+.purchase-dialog-content {
+  padding: 32px;
+}
+
+.purchase-dialog-content .eyebrow {
+  margin-bottom: 14px;
+}
+
+.purchase-dialog-content h2 {
+  margin-bottom: 12px;
+  font-size: clamp(23px, 5vw, 30px);
+}
+
+.purchase-dialog-content > p:not(.eyebrow) {
+  margin-bottom: 26px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.purchase-dialog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.purchase-dialog-actions form {
+  margin: 0;
+}
+
+.purchase-dialog-cancel {
+  min-height: 45px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.purchase-dialog-cancel:hover {
+  background: rgba(244, 242, 233, 0.06);
+}
+
 .site-footer {
   display: flex;
   width: min(1160px, calc(100% - 64px));
